@@ -1,0 +1,40 @@
+:root {
+  --yellow: rgb(252, 202, 43);
+  --blue: rgb(177, 213, 245);
+  --darkblue: rgb(66, 66, 143);
+  --text: rgb(71, 69, 69);
+}
+.tagline-container {
+  background-color: whitesmoke;
+}
+#tagline-txt {
+  padding: 10%;
+  color: var(--text);
+  text-align: justify;
+}
+.tagline-btn-container{
+    margin-left: 5%;
+}
+.tagline-btn {
+  border: none;
+  font-size: x-large;
+  margin: 2%;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.apply {
+  background-color: var(--darkblue);
+  color: var(--yellow);
+}
+.contact {
+  border-radius: 5px;
+  border: solid 2px var(--text);
+  color: var(--text);
+}
+.tagline-btn:hover{
+    cursor: pointer;
+}
+.tagline-trainings-img{
+    width: 90%;
+}
