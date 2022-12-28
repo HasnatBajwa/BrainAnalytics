@@ -1,0 +1,45 @@
+:root {
+  --yellow: rgb(252, 202, 43);
+  --blue: rgb(177, 213, 245);
+  --darkblue: rgb(66, 66, 143);
+  --text: rgb(71, 69, 69);
+}
+/* WebPage Settings */
+* {
+  margin: 0;
+  padding: 0;
+}
+.header-container {
+  background-color: var(--darkblue);
+  display: flex;
+}
+.header-contact {
+  margin-left: 10px;
+  padding: 20px;
+  display: flex;
+  color: white;
+}
+.header-icons {
+  color: var(--blue);
+  font-size: large;
+}
+.header-tabs {
+  padding: 20px;
+  font-weight: bolder;
+  display: flex;
+  color: white;
+  background: none;
+  border: none;
+  text-align: right;
+}
+.header-tabs:hover {
+  color: var(--yellow);
+  cursor: pointer;
+  text-decoration: underline;
+}
+/* Mobile Responsive Settings */
+@media only screen and (max-device-width: 768px) {
+  .header-contact {
+    text-align: center;
+  }
+}

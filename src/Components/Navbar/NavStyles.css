@@ -1,0 +1,32 @@
+:root {
+  --yellow: rgb(252, 202, 43);
+  --blue: rgb(177, 213, 245);
+  --darkblue: rgb(66, 66, 143);
+  --text: rgb(71, 69, 69);
+}
+/* Webpage Settings */
+.nav-container {
+  background-color: var(--blue);
+}
+.company-logo {
+  width: 12%;
+  margin-left: 5%;
+}
+.nav-btn-container{
+  padding: 30px;
+  text-align: right;
+}
+.nav-btn{
+  background: none;
+  border: none;
+  font-size: large;
+  color: var(--text);
+}
+.nav-btn:hover{
+  cursor: pointer;
+  color: var(--yellow);
+  text-decoration: underline;
+}
+/* Mobile Settings*/
+@media only screen and (max-device-width: 768px) {
+}

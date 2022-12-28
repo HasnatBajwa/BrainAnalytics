@@ -1,8 +1,13 @@
-
+import React from "react";
+import Whatsapp from "./Modules/Whatsapp/Whatsapp";
+import Header from "./Components/Header/Header";
+import Nav from "./Components/Navbar/Nav";
 function App() {
   return (
     <div className="App">
-     hello world
+      <Header />
+      <Nav />
+      <Whatsapp />
     </div>
   );
 }
