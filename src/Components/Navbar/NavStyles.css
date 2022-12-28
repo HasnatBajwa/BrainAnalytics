@@ -13,13 +13,13 @@
   margin-left: 5%;
 }
 .nav-btn-container{
-  padding: 30px;
+  padding: 40px;
   text-align: right;
 }
 .nav-btn{
   background: none;
   border: none;
-  font-size: large;
+  font-size: medium;
   color: var(--text);
 }
 .nav-btn:hover{
@@ -29,4 +29,17 @@
 }
 /* Mobile Settings*/
 @media only screen and (max-device-width: 768px) {
+  .nav-btn-container{
+    padding:20px;
+  }
+  .nav-btn{
+    margin-left: 100%;
+    font-size: small;
+  }
+  .company-logo{
+    display: block;
+    margin: auto;
+    width:25%;
+  }
+
 }
