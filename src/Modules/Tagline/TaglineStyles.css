@@ -6,9 +6,11 @@
 }
 .tagline-container {
   background-color: whitesmoke;
+  overflow-x: hidden;
 }
-#tagline-txt {
-  padding: 10%;
+.tagline-txt {
+  padding-top: 5%;
+  padding-left:5%;
   color: var(--text);
   text-align: justify;
 }
@@ -36,5 +38,16 @@
     cursor: pointer;
 }
 .tagline-trainings-img{
-    width: 90%;
+    width: 80%;
+    margin-left:20%;
+    margin-top: 2%;
+}
+#tagline-partners-txt{
+    color: var(--text);
+    font-size: xx-large;
+    text-align: center;
+}
+.tagline-partners-img{
+    width: 50%;
+    margin-left: 28%;
 }
