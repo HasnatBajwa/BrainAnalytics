@@ -1,0 +1,44 @@
+:root {
+  --yellow: rgb(252, 202, 43);
+  --blue: rgb(177, 213, 245);
+  --darkblue: rgb(66, 66, 143);
+  --text: rgb(71, 69, 69);
+}
+.benefits-container {
+  background-color: var(--blue);
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-right: 70px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  border: 1px solid var(--text);
+  border-radius: 5px;
+}
+.benefits-heading-1 {
+  text-align: center;
+  color: var(--text);
+  font-size: 60px;
+}
+.benefits-heading-2 {
+    text-align: center;
+    color: var(--text);
+    /* font-size: px; */
+  }
+.benefits-txt{
+text-align: center;
+color: var(--darkblue);
+font-size: large;
+margin-top: 5%;
+}
+.benefits-bar{
+    border-left: 2px solid var(--text);
+    height: 25%;
+    position:absolute;
+    /* margin-left: 0.5%; */
+
+}
+@media only screen and (max-device-width: 768px) 
+{
+
+}
