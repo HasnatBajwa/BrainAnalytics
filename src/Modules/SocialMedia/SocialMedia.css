@@ -1,0 +1,26 @@
+:root {
+    --yellow: rgb(252, 202, 43);
+    --blue: rgb(177, 213, 245);
+    --darkblue: rgb(66, 66, 143);
+    --text: rgb(71, 69, 69);
+  }
+  .socialmedia-container{
+    display: block;
+    margin: auto;
+  }
+ .social-media-heading{
+    text-align: center;
+    color: var(--text);
+ }
+ .social-media-presence{
+    color: var(--yellow);
+ }
+ .socialmedia-icon-container{
+    display: block;
+    margin: auto;
+    width: 100%;
+ }
+ 
+.socialmedia-icon{
+   width: 20%;
+}

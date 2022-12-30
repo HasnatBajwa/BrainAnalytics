@@ -12,6 +12,7 @@
 .header-container {
   background-color: var(--darkblue);
   display: flex;
+  overflow-x: hidden;
 }
 .header-contact {
   margin-left: 10px;
