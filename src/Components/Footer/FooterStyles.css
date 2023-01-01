@@ -1,0 +1,37 @@
+:root {
+    --yellow: rgb(252, 202, 43);
+    --blue: rgb(177, 213, 245);
+    --darkblue: rgb(66, 66, 143);
+    --text: rgb(71, 69, 69);
+  }
+  .footer-container{
+    background-color: var(--darkblue);
+    padding: 2%;
+    margin-top: 2%;
+  }
+.footer-address{
+    color: var(--yellow);
+    font-size: 60px;
+}
+.footer-address-heading{
+    color: whitesmoke;
+    text-decoration: underline;
+    text-decoration-color:var(--yellow) ;
+}
+.footer-address-txt{
+    margin-top: 2%;
+    color:whitesmoke;
+}
+.footer-address-contact{
+    color: var(--yellow);
+}
+.footer-copyright{
+    background-color: var(--yellow);
+    text-align: center;
+    color:var(--text);
+}
+.brain{
+    color: var(--darkblue);
+    font-size: large;
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+:root {
+  --yellow: rgb(252, 202, 43);
+  --blue: rgb(177, 213, 245);
+  --darkblue: rgb(66, 66, 143);
+  --text: rgb(71, 69, 69);
+}
+.services-container {
+  background-color: var(--text);
+}
+.service-heading {
+  color: var(--blue);
+  text-align: center;
+}
+.services-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: whitesmoke;
+  margin: 2%;
+  height: 150px;
+  border-bottom-left-radius: 1em;
+  border-top-right-radius: 1em;
+  color: var(--darkblue);
+  text-align: center;
+}
