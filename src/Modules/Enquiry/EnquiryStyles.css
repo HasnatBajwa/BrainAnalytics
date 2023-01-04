@@ -1,0 +1,102 @@
+:root {
+  --yellow: rgb(252, 202, 43);
+  --blue: rgb(177, 213, 245);
+  --darkblue: rgb(66, 66, 143);
+  --text: rgb(71, 69, 69);
+}
+
+.enquiry-container {
+  background-color: whitesmoke;
+  display: block;
+  margin: auto;
+  width: 90%;
+  margin-top: 5%;
+  border-radius: 5px;
+  height: 500px;
+}
+.enquiry-form-open-btn {
+  padding: 20px;
+  font-weight: bolder;
+  display: flex;
+  color: white;
+  background: none;
+  border: none;
+  text-align: right;
+}
+.enquiry-form-open-btn:hover {
+  cursor: pointer;
+}
+.enquiry-heading {
+  padding: 2%;
+  text-align: center;
+  color: var(--text);
+}
+.std-data-container {
+  margin-top: 2%;
+  padding: 2%;
+}
+.std-data-txt {
+  font-weight: bold;
+  font-size: large;
+  color: rgb(130, 129, 129);
+  text-decoration: underline solid var(--yellow);
+}
+.std-form {
+  width: 90%;
+  height: 35px;
+  border: solid 1px var(--darkblue);
+  border-radius: 5px;
+  text-align: center;
+}
+.gender-txt {
+  padding: 2%;
+  color: var(--text);
+}
+.std-form-questions {
+  width: 100%;
+  height: 50px;
+  border: solid 1px var(--darkblue);
+  border-radius: 5px;
+  text-align: center;
+}
+.questions {
+  color: var(--text);
+  text-align: center;
+  font-size: x-large;
+}
+.std-btn-cancel {
+  color: whitesmoke;
+  border: none;
+  padding: 1%;
+  width: 200px;
+  font-size: large;
+  text-align: center;
+  background: linear-gradient(to right, var(--darkblue) 50%, var(--yellow) 50%) left;
+  background-size: 200%;
+  transition: .5s ease-out;
+  border-radius: 5px;
+  margin: 1%;
+}
+.std-btn-submit{
+  margin: 1%;
+  border: none;
+  padding: 1%;
+  width: 200px;
+  font-size: large;
+  text-align: center;
+  background: linear-gradient(to left, var(--yellow) 50%, var(--darkblue) 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+  border-radius: 5px;
+  color: var(--text);
+}
+.std-btn-submit:hover{
+  background-position: left;
+  color: whitesmoke;
+  cursor: pointer;
+}
+.std-btn-cancel:hover{
+  background-position: right;
+  color:var(--text);
+  cursor: pointer;
+}

@@ -3,6 +3,7 @@ import "./HeaderStyles.css";
 import { Grid } from "@material-ui/core";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { AiFillMail } from "react-icons/ai";
+import Enquiry from "../../Modules/Enquiry/Enquiry";
 
 const Header = () => {
   return (
@@ -18,7 +19,7 @@ const Header = () => {
           </p>
         </Grid>
         <Grid item xs={3} sm={2} md={1}>
-          <button className="header-tabs">Enquiry</button>
+          <Enquiry/>
         </Grid>
         <Grid item xs={3} sm={2} md={1}>
           <button className="header-tabs">Courses</button>

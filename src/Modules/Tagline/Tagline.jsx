@@ -9,9 +9,9 @@ const Tagline = () => {
     <div className="tagline-container">
       <Grid container>
         <Grid item xs={12} sm={12} md={6}>
-          <h2 className="tagline-txt">
+          <h3 className="tagline-txt">
             Accelerate your career with expert-led trainings.
-          </h2>
+          </h3>
           <h1 className="tagline-txt">
             "Our company specializes in providing top-quality IT training to
             professionals and businesses looking to stay ahead of the curve in
