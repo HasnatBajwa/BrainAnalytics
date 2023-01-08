@@ -28,6 +28,7 @@ export default function BasicModal() {
         <div data-aos='fade-up' className="enquiry-container">
           <h2 className="enquiry-heading">Please Fill Out The Below Form</h2>
           <div className="std-data-container">
+            
             <Grid container justifyContent="center">
               <Grid item xs={6} sm={6} md={3}>
                 <p className="std-data-txt">Course Interested</p>
@@ -36,6 +37,7 @@ export default function BasicModal() {
                   className="std-form"
                   placeholder="Enter Course Name"
                   onChange={(e)=>setcourse(e.target.value)}
+                  required
                 />
               </Grid>
               <Grid item xs={6} sm={6} md={3}>
@@ -45,6 +47,7 @@ export default function BasicModal() {
                   className="std-form"
                   placeholder="Enter Your Name"
                   onChange={(e)=>setfullName(e.target.value)}
+                  required
                 />
               </Grid>
               <Grid item xs={6} sm={6} md={3}>
@@ -54,6 +57,7 @@ export default function BasicModal() {
                   className="std-form"
                   placeholder="+92-325-2724646"
                   onChange={(e)=>setcontactNum(e.target.value)}
+                  required
                 />
               </Grid>
               <Grid item xs={6} sm={6} md={3}>
@@ -63,6 +67,7 @@ export default function BasicModal() {
                   className="std-form"
                   placeholder="brainanalytics.pk@gmail.com"
                   onChange={(e)=>setEmail(e.target.value)}
+                  required
                 />
               </Grid>
               <Grid item xs={6} sm={6} md={3}>
@@ -77,7 +82,8 @@ export default function BasicModal() {
               <Grid item xs={6} sm={6} md={3}>
                 <p className="std-data-txt">Last Qualification</p>
                 <input type="text" className="std-form" placeholder="BSCS"
-                 onChange={(e)=>setQualification(e.target.value)}/>
+                 onChange={(e)=>setQualification(e.target.value)}
+                 required/>
               </Grid>
               <Grid item xs={6} sm={6} md={3}>
                 <p className="std-data-txt">Occupation</p>
@@ -86,13 +92,15 @@ export default function BasicModal() {
                   className="std-form"
                   placeholder="Software Engineer"
                   onChange={(e)=>setOccupation(e.target.value)}
+                  required
                 />
               </Grid>
               <Grid item xs={6} sm={6} md={3}>
                 <p className="std-data-txt">Date of Birth</p>
                 <input type="date" placeholder="dd-mm-yyyy"
                  className="std-form"
-                 onChange={(e)=>setdateOfBirth(e.target.value)} />
+                 onChange={(e)=>setdateOfBirth(e.target.value)}
+                 required />
               </Grid>
               <Grid item xs={12} sm={12} md={12}>
                 <p className="questions">Questions/Suggestions</p>
@@ -101,6 +109,7 @@ export default function BasicModal() {
                   className="std-form-questions"
                   placeholder="Enter your questions or suggestions"
                   onChange={(e)=>setqueAndSug(e.target.value)}
+                  required
                 />
               </Grid>
 

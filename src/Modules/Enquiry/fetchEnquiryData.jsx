@@ -23,9 +23,19 @@ const enquiryDataHandler =()=>{
         "Date of Birth = ",dateOfBirth,
         "questions = ",queAndSug
     );
-    if(course||fullName||contactNum||Email||contactNum === ""){
+    if(course === ""){
         toast.error("Hi there visitor Please make sure to fill out all the fields so that we can guide you better");
     }
+    else if(fullName === ""){
+        toast.error("Hi there visitor Please make sure to fill out all the fields so that we can guide you better");
+    }
+    else if(contactNum === "" && contactNum.length > 11) {
+        toast.error("Hi there visitor Please make sure to fill out all the fields so that we can guide you better");
+    }
+    else if(Email === ""){
+        toast.error("Hi there visitor Please make sure to fill out all the fields so that we can guide you better");
+    }
+
     else{
     toast.success(`Hi there ${fullName} Your Query has been noted you will be contacted by our team shortly`);
     setcourse("");
