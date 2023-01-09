@@ -1,12 +1,39 @@
 :root {
-    --yellow: rgb(252, 202, 43);
-    --blue: rgb(177, 213, 245);
-    --darkblue: rgb(66, 66, 143);
-    --text: rgb(71, 69, 69);
-  }
-.typewriter-container{
-background-color: var(--darkblue);
-color: whitesmoke;
-font-size: xx-large;
-text-align: center;
+  --yellow: rgb(252, 202, 43);
+  --blue: rgb(177, 213, 245);
+  --darkblue: rgb(66, 66, 143);
+  --text: rgb(71, 69, 69);
+}
+
+.about-heading {
+  color: var(--darkblue);
+  padding: 1%;
+}
+
+.about-txt {
+  color: var(--text);
+  text-align: justify;
+  padding: 1%;
+  font-weight: bold;
+  font-size: large;
+}
+
+.about-img {
+  display: flex;
+  width: 90%;
+}
+.about-our-team{
+  padding: 2%;
+}
+.our-team-img {
+  display: flex;
+  margin: auto;
+  width: 20%;
+}
+.profile-card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: whitesmoke;
+  margin: 0 2% 0 2%;
+  height: 150px;
+  color: var(--darkblue);
 }
