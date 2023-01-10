@@ -30,7 +30,7 @@ padding: 10px;
 }
 .benefits-bar{
     border-left: 2px solid var(--text);
-    height: 25%;
+    height: 15%;
     position:absolute;
 }
 @media only screen and (max-device-width: 768px) 

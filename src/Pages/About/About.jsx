@@ -8,7 +8,8 @@ import ourteam from '../../assets/company/our-team.png';
 import tahirProfile from '../../assets/Profile/tahir-profile.png';
 import saifProfile from '../../assets/Profile/saif-profile.png';
 import hasnatProfile from '../../assets/Profile/hasnat-profile.png';
-import femaleProfile from '../../assets/Profile/female-profile.png'
+import femaleProfile from '../../assets/Profile/female-profile.png';
+import Gallery from '../../Components/Gallery/Gallery';
 import "./AboutStyles.css";
 
 const About = () => {
@@ -127,6 +128,7 @@ const About = () => {
                         </div>
                     </Grid>
                 </Grid>
+                <Gallery />
             </div>
             <Footer />
         </>
