@@ -3,6 +3,7 @@
   --blue: rgb(177, 213, 245);
   --darkblue: rgb(66, 66, 143);
   --text: rgb(71, 69, 69);
+  --red: rgb(209, 11, 57);
 }
 
 .about-heading {
@@ -22,18 +23,57 @@
   display: flex;
   width: 90%;
 }
-.about-our-team{
+
+.about-our-team {
   padding: 2%;
 }
+
 .our-team-img {
   display: flex;
   margin: auto;
   width: 20%;
 }
-.profile-card{
+
+.profile-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: whitesmoke;
+  height: 200px;
+}
+
+.about-profile-img {
+  width: 25%;
+  display: inline-block;
+  float: right;
+}
+
+.ceo {
   margin: 0 2% 0 2%;
-  height: 150px;
+
+}
+
+.about-profile {
+  display: inline-block;
+  float: left;
+  padding: 2%;
+  width: 70%;
+}
+
+.about-profile-heading {
   color: var(--darkblue);
+}
+
+.about-profile-designation {
+  color: var(--red);
+  text-decoration: underline var(--yellow);
+  font-size: small;
+  padding: 1%;
+  font-weight: bold;
+}
+
+.about-profile-txt {
+  color: var(--text);
+  text-align: justify;
+}
+.muqaddas, .alisha{
+  width: 15%;
 }
