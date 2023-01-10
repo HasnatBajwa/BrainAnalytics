@@ -4,9 +4,7 @@ import training1 from '../../assets/Gallery/01.jpeg';
 import training2 from '../../assets/Gallery/02.jpeg';
 import training3 from '../../assets/Gallery/04.jpeg';
 import training4 from '../../assets/Gallery/05.jpeg';
-import training5 from '../../assets/Gallery/06.jpeg';
 import training6 from '../../assets/Gallery/07.jpeg';
-import training7 from '../../assets/Gallery/09.jpeg';
 import training8 from '../../assets/Gallery/10.jpeg';
 import training9 from '../../assets/Gallery/11.jpg';
 import training10 from '../../assets/Gallery/12.jpeg';
@@ -36,7 +34,7 @@ const Gallery = () => {
             </Grid>
             <Grid container data-aos='fade-up'>
                
-                    <Grid item xs={4} sm={4} md={3}><img src={training5} alt="training-images" className='training-img' /></Grid>
+                    <Grid item xs={4} sm={4} md={3}><img src={training18} alt="training-images" className='training-img' /></Grid>
                     <Grid item xs={4} sm={4} md={3}><img src={training6} alt="training-images" className='training-img' /></Grid>
                     <Grid item xs={4} sm={4} md={3}><img src={training8} alt="training-images" className='training-img' /></Grid>
                     <Grid item xs={4} sm={4} md={3}><img src={training9} alt="training-images" className='training-img' /></Grid>
