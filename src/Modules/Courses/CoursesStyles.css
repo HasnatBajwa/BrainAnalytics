@@ -4,10 +4,12 @@
   --darkblue: rgb(66, 66, 143);
   --text: rgb(71, 69, 69);
 }
+
 .courses-container {
-  background-color: whitesmoke;
+  background-color: rgb(246, 234, 221);
   padding: 5px;
 }
+
 .courses-heading {
   color: var(--text);
   font-size: 50px;
@@ -15,21 +17,23 @@
   padding-top: 2%;
   padding-bottom: 3%;
 }
+
 .course-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 2%;
   padding: 10%;
   border-bottom-left-radius: 2em;
   border-top-right-radius: 2em;
-  background: linear-gradient(to left, var(--yellow) 50%, var(--blue) 50%);
-  background-size: 200%;
-  background-position: right;
-  transition: background-position 1s ease-in;
+  background-color: var(--yellow);
 }
-.course-card:hover{
-    background-position: left;
+
+.course-img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
-.course-title {
-  text-align: center;
-  color: var(--text);
+
+.course-img {
+  width: 100%;
+  height: 200px;
+  transition: transform .5s ease;
 }

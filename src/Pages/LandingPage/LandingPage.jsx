@@ -14,9 +14,9 @@ const LandingPage = () => {
     <Nav/>
     <Tagline/>
     <Benefits/>
-    <SocialMedia/>
     <Courses/>
     <Services/>
+    <SocialMedia/>
     <Footer/>
     </>
   )

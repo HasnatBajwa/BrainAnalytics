@@ -1,6 +1,11 @@
 import React from "react";
 import "./CoursesStyles.css";
 import { Grid } from "@material-ui/core";
+import digitalMarketing from '../../assets/Courses/digitalmarketing.png';
+import graphicDesigning from '../../assets/Courses/graphic-designing.png';
+import dataAnalysis from '../../assets/Courses/data-analysis.png';
+import virtualAssitant from '../../assets/Courses/virtualassistant.png';
+import webAndApp from '../../assets/Courses/webandapp.png'; 
 
 const Courses = () => {
   return (
@@ -15,27 +20,27 @@ const Courses = () => {
         </Grid>
         <Grid item xs={12} sm={12} md={6}>
           <div data-aos='fade-right' className="course-card dm">
-            <h1 className="course-title">Digital Marketing</h1>
+            <img src={digitalMarketing} alt="Digital-Marketing" className="course-img" />
           </div>
         </Grid>
         <Grid item xs={12} sm={12} md={6}>
           <div data-aos='fade-left' className="course-card">
-            <h1 className="course-title da">Data Analysis</h1>
+            <img src={dataAnalysis} alt="Data-Analysis" className="course-img" />
           </div>
         </Grid>
         <Grid item xs={12} sm={12} md={4}>
           <div data-aos='fade-up' className="course-card">
-            <h2 className="course-title gd">Graphic Design & Video Editing</h2>
+            <img src={graphicDesigning} alt="Graphic-Designing" className="course-img" />
           </div>
         </Grid>
         <Grid item xs={12} sm={12} md={4}>
           <div data-aos='fade-up' className="course-card">
-            <h2 className="course-title va">Virtual Assistant</h2>
+            <img src={virtualAssitant} alt="Virtual-Assistant" className="course-img" />
           </div>
         </Grid>
         <Grid item xs={12} sm={12} md={4}>
           <div data-aos='fade-up' className="course-card">
-            <h2 className="course-title wd">Web & Mobile App Dev</h2>
+            <img src={webAndApp} alt="Web-and-App" className="course-img" />
           </div>
         </Grid>
       </Grid>

@@ -5,19 +5,21 @@
   --text: rgb(71, 69, 69);
 }
 .services-container {
-  background-color: var(--text);
+ 
 }
 .service-heading {
   color: var(--blue);
   text-align: center;
+  font-size: 100px;
 }
 .services-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: whitesmoke;
+  background-color: rgb(232, 228, 228);
   margin: 2%;
-  height: 150px;
-  border-bottom-left-radius: 1em;
-  border-top-right-radius: 1em;
-  color: var(--darkblue);
-  text-align: center;
+  height: 250px;
+  border-radius: 1em;
+}
+.service-img{
+  width: 100%;
+  height: 200px;
 }

@@ -1,6 +1,11 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
 import "./ServicesStyles.css";
+import digitalMarketing from '../../assets/Courses/digitalmarketing.png';
+import graphicDesigning from '../../assets/Courses/graphic-designing.png';
+import dataAnalysis from '../../assets/Courses/data-analysis.png';
+import virtualAssitant from '../../assets/Courses/virtualassistant.png';
+import webAndApp from '../../assets/Courses/webandapp.png'; 
 
 const Services = () => {
   return (
@@ -11,37 +16,37 @@ const Services = () => {
         </Grid>
         <Grid item xs={12} sm={12} md={12}>
           <div className="services-card">
-            <h1>services</h1>
+         <img src={dataAnalysis} alt="" className="service-img" />
           </div>
         </Grid>
         <Grid item xs={12} sm={12} md={3}>
           <div className="services-card">
-            <h1>services</h1>
+          <img src={dataAnalysis} alt="" className="service-img" />
           </div>
         </Grid>
         <Grid item xs={12} sm={12} md={3}>
           <div className="services-card">
-            <h1>services</h1>
+          <img src={dataAnalysis} alt="" className="service-img" />
           </div>
         </Grid>
         <Grid item xs={12} sm={12} md={6}>
           <div className="services-card">
-            <h1>services</h1>
+         <img src={dataAnalysis} alt="" className="service-img" />
           </div>
         </Grid>
         <Grid item xs={12} sm={12} md={6}>
           <div className="services-card">
-            <h1>services</h1>
+         <img src={dataAnalysis} alt="" className="service-img" />
           </div>
         </Grid>
         <Grid item xs={12} sm={12} md={3}>
           <div className="services-card">
-            <h1>services</h1>
+          <img src={dataAnalysis} alt="" className="service-img" />
           </div>
         </Grid>
         <Grid item xs={12} sm={12} md={3}>
           <div className="services-card">
-            <h1>services</h1>
+          <img src={dataAnalysis} alt="" className="service-img" />
           </div>
         </Grid>
       </Grid>

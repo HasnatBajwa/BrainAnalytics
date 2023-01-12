@@ -38,15 +38,15 @@ const enquiryDataHandler =()=>{
 
     else{
     toast.success(`Hi there ${fullName} Your Query has been noted you will be contacted by our team shortly`);
-    setcourse("");
-    setfullName("");
-    setcontactNum("");
-    setEmail("");
-    setGender("");
-    setQualification("");
-    setOccupation("");
-    setdateOfBirth("");
-    setqueAndSug("");
+    setcourse(" ");
+    setfullName(" ");
+    setcontactNum(" ");
+    setEmail(" ");
+    setGender(" ");
+    setQualification(" ");
+    setOccupation(" ");
+    setdateOfBirth(" ");
+    setqueAndSug(" ");
     }
     
    

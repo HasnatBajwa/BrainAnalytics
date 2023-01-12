@@ -10,6 +10,7 @@ import saifProfile from '../../assets/Profile/saif-profile.png';
 import hasnatProfile from '../../assets/Profile/hasnat-profile.png';
 import femaleProfile from '../../assets/Profile/female-profile.png';
 import Gallery from '../../Components/Gallery/Gallery';
+import why from '../../assets/company/whychooseus.png';
 import "./AboutStyles.css";
 
 const About = () => {
@@ -25,10 +26,6 @@ const About = () => {
 
                     </Grid>
                     <Grid item xs={12} sm={12} md={9}>
-
-                        <h1 data-aos="fade-right" className="about-heading">
-                            About Us
-                        </h1>
                         <p data-aos="fade-down" className="about-txt">
                             Brain Analytics, was founded in 2022 with the goal of providing high-quality technology training and services to individuals and businesses.
                             Since then, we have helped hundreds of students learn new skills and advance their careers in the fast-paced world of information technology.
@@ -93,7 +90,7 @@ const About = () => {
                         <div className="profile-card ceo">
                             <div className='about-profile'>
                                 <h1 className='about-profile-heading'>Alisha Tahir</h1>
-                                <p className="about-profile-designation"> Virtual Assitant, Brain Analytics</p>
+                                <p className="about-profile-designation"> Amazon Business Consultant, Brain Analytics</p>
                                 <p className="about-profile-txt">
                                     Ms Alisha is an Amazon Private Label Expert.
                                     Her Expertise include Product Research, Keyword
@@ -112,7 +109,7 @@ const About = () => {
                         <div className="profile-card ceo">
                             <div className='about-profile'>
                                 <h1 className='about-profile-heading'>Muqaddas Nazeer</h1>
-                                <p className="about-profile-designation"> Virtual Assistant, Brain Analytics</p>
+                                <p className="about-profile-designation"> Amazon Business Consultant, Brain Analytics</p>
                                 <p className="about-profile-txt">
                                     Ms Muqaddas is an Amazon FBA Wholesale Expert.
                                     Her Expertise include Product Research, Keyword

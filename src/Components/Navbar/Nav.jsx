@@ -21,7 +21,7 @@ const Nav = () => {
           <button className="nav-btn">Contact</button>
         </Grid>
         <Grid className="nav-btn-container" item xs={2} sm={2} md={1}>
-          <button className="nav-btn">Services</button>
+         <Link to="/Services"><button className="nav-btn">Services</button></Link> 
         </Grid>
         <Grid className="nav-btn-container" item xs={2} sm={2} md={1}>
           <button className="nav-btn">Blog</button>
