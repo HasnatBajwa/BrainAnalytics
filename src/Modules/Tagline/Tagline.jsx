@@ -7,19 +7,19 @@ import Partners from "../../assets/company/Partners.png";
 const Tagline = () => {
   return (
     <div className="tagline-container">
-      <Grid container>
+      <Grid container justifyContent="center">
         <Grid item xs={12} sm={12} md={6}>
-          <h3 className="tagline-txt">
+          <h1 className="tagline-heading">
             Accelerate your career with expert-led trainings.
-          </h3>
-          <h1 className="tagline-txt">
+          </h1>
+          {/* <h1 className="tagline-txt">
             "Our company specializes in providing top-quality IT training to
             professionals and businesses looking to stay ahead of the curve in
             the constantly evolving world of technology."
           </h1>
           <h3 className="tagline-txt">
           Stay ahead of the curve with our cutting-edge IT training.
-          </h3>
+          </h3> */}
           <div className="tagline-btn-container">
             <button className="tagline-btn apply">Apply Now!</button>
             <button className="tagline-btn contact">Contact Us</button>

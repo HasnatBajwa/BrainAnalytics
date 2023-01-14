@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../../Components/Header/Header';
 import Nav from '../../Components/Navbar/Nav';
 import Tagline from '../../Modules/Tagline/Tagline';
 import Benefits from '../../Modules/Benefits/Benefits';
@@ -10,7 +9,6 @@ import Footer from '../../Components/Footer/Footer';
 const LandingPage = () => {
   return (
     <>
-    <Header/>
     <Nav/>
     <Tagline/>
     <Benefits/>

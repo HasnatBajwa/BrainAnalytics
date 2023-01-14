@@ -5,7 +5,9 @@
   --text: rgb(71, 69, 69);
   --red: rgb(209, 11, 57);
 }
-
+.about-container{
+  margin-top: 5%;
+}
 .about-heading {
   color: var(--darkblue);
   padding: 1%;

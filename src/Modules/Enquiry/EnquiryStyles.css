@@ -10,21 +10,20 @@
   display: block;
   margin: auto;
   width: 90%;
-  margin-top: 5%;
   border-radius: 5px;
   height: 500px;
 }
 .enquiry-form-open-btn {
-  padding: 20px;
-  font-weight: bolder;
-  display: flex;
-  color: white;
   background: none;
   border: none;
-  text-align: right;
+  font-size: medium;
+  color: var(--text);
+  margin-right: 3%;
 }
 .enquiry-form-open-btn:hover {
   cursor: pointer;
+  color: var(--darkblue);
+  text-decoration: underline;
 }
 .enquiry-heading {
   padding: 2%;
@@ -99,4 +98,13 @@
   background-position: right;
   color:var(--text);
   cursor: pointer;
+}
+@media only screen and (max-device-width: 768px) {
+  .enquiry-form-open-btn{
+   font-size: x-small;
+   margin-left: 2px;
+
+  }
+  
+
 }

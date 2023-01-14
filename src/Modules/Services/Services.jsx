@@ -15,37 +15,37 @@ const Services = () => {
           <h1 className="service-heading">Our Services</h1>
         </Grid>
         <Grid item xs={12} sm={12} md={12}>
-          <div className="services-card">
+          <div data-aos="zoom-in" className="services-card">
          <img src={dataAnalysis} alt="" className="service-img" />
           </div>
         </Grid>
         <Grid item xs={12} sm={12} md={3}>
-          <div className="services-card">
+          <div data-aos="flip-up" className="services-card">
           <img src={dataAnalysis} alt="" className="service-img" />
           </div>
         </Grid>
         <Grid item xs={12} sm={12} md={3}>
-          <div className="services-card">
+          <div data-aos="flip-up" className="services-card">
           <img src={dataAnalysis} alt="" className="service-img" />
           </div>
         </Grid>
         <Grid item xs={12} sm={12} md={6}>
-          <div className="services-card">
+          <div data-aos="flip-up" className="services-card">
          <img src={dataAnalysis} alt="" className="service-img" />
           </div>
         </Grid>
         <Grid item xs={12} sm={12} md={6}>
-          <div className="services-card">
+          <div data-aos="flip-up" className="services-card">
          <img src={dataAnalysis} alt="" className="service-img" />
           </div>
         </Grid>
         <Grid item xs={12} sm={12} md={3}>
-          <div className="services-card">
+          <div data-aos="flip-up" className="services-card">
           <img src={dataAnalysis} alt="" className="service-img" />
           </div>
         </Grid>
         <Grid item xs={12} sm={12} md={3}>
-          <div className="services-card">
+          <div data-aos="flip-up" className="services-card">
           <img src={dataAnalysis} alt="" className="service-img" />
           </div>
         </Grid>

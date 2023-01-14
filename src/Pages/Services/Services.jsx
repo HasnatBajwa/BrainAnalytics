@@ -1,12 +1,11 @@
 import React from 'react';
 import Nav from '../../Components/Navbar/Nav';
-import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
+import './ServicesStyles.css';
 
 const Services = () => {
     return (
         <>
-            <Header />
             <Nav />
             <div className="services-container">
 

@@ -1,0 +1,177 @@
+:root {
+    --yellow: rgb(252, 202, 43);
+    --blue: rgb(177, 213, 245);
+    --darkblue: rgb(66, 66, 143);
+    --text: rgb(71, 69, 69);
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-container {
+    background-color: whitesmoke;
+    color: var(--darkblue);
+    width: 100%;
+    padding: 0%;
+}
+
+.home {
+    color: var(--darkblue);
+    background: none;
+    border: none;
+    font-size: medium;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.home:hover {
+    cursor: pointer;
+}
+
+.company-logo {
+    width: 10%;
+    margin-left: 10%;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    font-size: medium;
+    color: var(--text);
+    margin-left: 5%;
+    font-weight: 500;
+}
+
+.nav-btn:hover {
+    cursor: pointer;
+    color: var(--darkblue);
+    text-decoration: underline;
+}
+
+.nav-hamburguer-icon {
+    font-size: 1.2em;
+    display: block;
+}
+
+.nav-hamburguer-icon:hover {
+    color: var(--yellow);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.nav-brand {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.nav-links {
+    display: none;
+    margin: auto;
+}
+
+@media screen and (min-width: 600px) {
+    .nav-links {
+        width: 25%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .nav-links>a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2em;
+    }
+
+    .nav-links>a:not(:last-child) {
+        margin-right: 1em;
+    }
+
+    .nav-hamburguer-icon {
+        display: none;
+    }
+
+    .overlay-container-hidden {
+        display: none;
+    }
+}
+
+/*Overlay menu classes */
+.overlay-container-show {
+    overflow: hidden;
+    position: fixed;
+    background-color: black;
+    opacity: 0.9;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    transition: left linear 500ms;
+}
+
+.overlay-container-hidden {
+    overflow: hidden;
+    position: fixed;
+    background-color: black;
+    opacity: 0.9;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -600px;
+    width: 100%;
+    z-index: 1;
+    transition: left linear 500ms;
+}
+
+.overlay-buttonClose {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: .5em;
+    font-size: 4em;
+}
+
+.overlay-menu-wrapper {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.overlay-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 10em;
+}
+
+.overlay-menu a {
+    font-size: 3em;
+    font-weight: 100;
+    text-decoration: none;
+    color: #818181;
+    transition: 0.3s;
+}
+
+.overlay-menu a:hover,
+.overlay-menu a:focus {
+    color: #f1f1f1;
+}
+
+.overlay-menu-item:not(:last-child) {
+    margin-bottom: .3em;
+}

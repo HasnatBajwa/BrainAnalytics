@@ -1,6 +1,5 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
-import Header from '../../Components/Header/Header';
 import Nav from '../../Components/Navbar/Nav';
 import Footer from '../../Components/Footer/Footer';
 import aboutus from '../../assets/company/aboutus.png';
@@ -10,13 +9,11 @@ import saifProfile from '../../assets/Profile/saif-profile.png';
 import hasnatProfile from '../../assets/Profile/hasnat-profile.png';
 import femaleProfile from '../../assets/Profile/female-profile.png';
 import Gallery from '../../Components/Gallery/Gallery';
-import why from '../../assets/company/whychooseus.png';
 import "./AboutStyles.css";
 
 const About = () => {
     return (
         <>
-            <Header />
             <Nav />
             <div className="about-container">
                 <Grid container justifyContent='flex-start'>
