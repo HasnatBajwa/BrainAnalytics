@@ -102,6 +102,10 @@ nav {
     .overlay-container-hidden {
         display: none;
     }
+    /* .company-logo {
+        width: 100%;
+        margin: auto;
+    } */
 }
 
 /*Overlay menu classes */
