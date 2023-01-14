@@ -102,10 +102,9 @@ nav {
     .overlay-container-hidden {
         display: none;
     }
-    /* .company-logo {
-        width: 100%;
-        margin: auto;
-    } */
+}
+@media only screen and (max-device-width: 768px) {
+    .company-logo{width:35%; display: flex; margin: auto;}
 }
 
 /*Overlay menu classes */
