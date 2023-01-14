@@ -12,14 +12,11 @@ const Tagline = () => {
           <h1 className="tagline-heading">
             Accelerate your career with expert-led trainings.
           </h1>
-          {/* <h1 className="tagline-txt">
-            "Our company specializes in providing top-quality IT training to
-            professionals and businesses looking to stay ahead of the curve in
-            the constantly evolving world of technology."
-          </h1>
-          <h3 className="tagline-txt">
-          Stay ahead of the curve with our cutting-edge IT training.
-          </h3> */}
+          <p className="tagline-txt">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum debitis officiis maiores voluptatem, quaerat est quos expedita harum inventore vitae saepe repellat necessitatibus laboriosam corrupti deserunt quas, deleniti eaque. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Nam distinctio pariatur modi dolore consectetur repellat ullam et inventore corrupti officia iusto cupiditate libero deleniti ea quos iste, veritatis quidem perferendis.
+          </p>
+
           <div className="tagline-btn-container">
             <button className="tagline-btn apply">Apply Now!</button>
             <button className="tagline-btn contact">Contact Us</button>
@@ -32,19 +29,19 @@ const Tagline = () => {
             alt="Trainings"
           />
         </Grid>
-        <Grid item xs={12} sm={12} md={12}>
-          <div className="tagline-partners">
-            <h1 id="tagline-partners-txt"> Our Corporate Trainees</h1>
-            <img
-              className="tagline-partners-img"
-              src={Partners}
-              alt="Partners"
-            />
-          </div>
-        </Grid>
       </Grid>
     </div>
   );
 };
 
 export default Tagline;
+{/* <Grid item xs={12} sm={12} md={12}>
+<div className="tagline-partners">
+  <h1 id="tagline-partners-txt"> Our Corporate Trainees</h1>
+  <img
+    className="tagline-partners-img"
+    src={Partners}
+    alt="Partners"
+  />
+</div>
+</Grid> */}

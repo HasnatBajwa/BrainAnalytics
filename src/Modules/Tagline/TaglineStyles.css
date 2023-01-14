@@ -3,28 +3,42 @@
   --blue: rgb(177, 213, 245);
   --darkblue: rgb(66, 66, 143);
   --text: rgb(71, 69, 69);
+  --navy:rgba(1,24,58,255);
 }
 .tagline-container {
-  margin-top:5%;
+  margin-top:8%;
   background-color: white;
   overflow-x: hidden;
   padding-left: 10%;
   padding-right: 10%;
+  background: url(../../assets//company/tagline.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
 }
 .tagline-heading {
+  margin-top: 20%;
   padding-top: 10%;
   padding-left:5%;
   color: var(--yellow);
   text-align: justify;
+}
+.tagline-txt{
+  color: whitesmoke;
+text-align: justify;
+padding: 5%;
+background-color: var(--navy);
 }
 .tagline-btn-container{
     margin-left: 5%;
 }
 .tagline-btn {
   border: none;
-  font-size: x-large;
+  font-size:medium;
   margin: 2%;
-  padding: 20px;
+  padding: 10px;
   border-radius: 5px;
   font-weight: bold;
 }
@@ -43,22 +57,18 @@
 .tagline-trainings-img{
     width: 80%;
     margin-left:20%;
-    margin-top: 2%;
+    margin-top: 20%;
 }
 #tagline-partners-txt{
     color: var(--text);
     font-size: xx-large;
     text-align: center;
 }
-.tagline-partners-img{
-    width: 50%;
-    margin-left: 28%;
-}
+
 @media only screen and (max-device-width: 768px) {
- 
-  .tagline-container {
-    margin-top:50%;
-  }
+ .tagline-container{
+  margin-top: 25%;
+ }
   .tagline-btn {
     border: none;
     font-size: small;
