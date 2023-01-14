@@ -20,6 +20,7 @@
 width: 80%;
 display: flex;
 margin: auto;
+z-index: 0;
 }
 .course-heading{
  text-align: center;
