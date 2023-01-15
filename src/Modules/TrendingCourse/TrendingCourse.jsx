@@ -61,7 +61,7 @@ const TrendingCourse = () => {
                             Web and Mobile App development
                         </h2>
                         <p className="course-q">
-                            2 Courses
+                            3 Courses
                         </p>
                     </div>
                 </Grid>
