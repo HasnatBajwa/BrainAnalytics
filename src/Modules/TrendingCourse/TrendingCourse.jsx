@@ -9,10 +9,22 @@ import { SiMarketo } from 'react-icons/si';
 const TrendingCourse = () => {
     return (
         <div className="trending-course-container">
+            <div className="course-material-text">
+                <h3 className="material-heading">
+                    Let's See Our
+                </h3>
+                <h1 className="course-material-title">
+                    Trending Course Categories
+                </h1>
+                <p className="course-material-txt">
+                    Because we know digital. With working knowledge of online, SEO and social media,
+                    we can take your message wherever it needs to go.
+                </p>
+            </div>
             <Grid container>
                 <Grid item xs={4} sm={4} md={4}>
                     <div className="course-material-card">
-                        <IoMdAnalytics className='course-icon'/>
+                        <IoMdAnalytics className='course-icon' />
                         <h2 className="course-h">
                             Digital Marketing
                         </h2>
@@ -23,8 +35,8 @@ const TrendingCourse = () => {
                 </Grid>
                 <Grid item xs={4} sm={4} md={4}>
                     <div className="course-material-card">
-                    <SiMarketo className='course-icon'/>
-                    <h2 className="course-h">
+                        <SiMarketo className='course-icon' />
+                        <h2 className="course-h">
                             Data Analysis
                         </h2>
                         <p className="course-q">
@@ -34,9 +46,9 @@ const TrendingCourse = () => {
                 </Grid>
                 <Grid item xs={4} sm={4} md={4}>
                     <div className="course-material-card">
-                    <TbBusinessplan className='course-icon'/>
-                    <h2 className="course-h">
-                           Virtual Assitant
+                        <TbBusinessplan className='course-icon' />
+                        <h2 className="course-h">
+                            Virtual Assitant
                         </h2>
                         <p className="course-q">
                             2 Courses
@@ -45,8 +57,8 @@ const TrendingCourse = () => {
                 </Grid>
                 <Grid item xs={6} sm={6} md={6}>
                     <div className="course-material-card">
-                    <AiOutlineAntDesign className='course-icon'/>
-                    <h2 className="course-h">
+                        <AiOutlineAntDesign className='course-icon' />
+                        <h2 className="course-h">
                             Graphic Designing
                         </h2>
                         <p className="course-q">
@@ -56,8 +68,8 @@ const TrendingCourse = () => {
                 </Grid>
                 <Grid item xs={6} sm={6} md={6}>
                     <div className="course-material-card">
-                    <MdDeveloperMode className='course-icon'/>
-                    <h2 className="course-h">
+                        <MdDeveloperMode className='course-icon' />
+                        <h2 className="course-h">
                             Web and Mobile App development
                         </h2>
                         <p className="course-q">

@@ -41,6 +41,16 @@
     color: var(--yellow);
     text-align: right;
 }
+.material-heading{
+    color: var(--navy);
+}
+.course-material-title{
+    color: var(--darkblue);
+}
+.course-material-txt{
+    color: var(--text);
+  padding: 1% 0% 3% 0%;
+}
 @media only screen and (max-device-width: 768px) {
     .course-icon{
         font-size: large;

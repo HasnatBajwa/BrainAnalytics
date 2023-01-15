@@ -7,7 +7,7 @@ const About = () => {
     return (
         <div className="aboutus-container">
             <Grid container>
-                <Grid data-aos='flip-up' item xs={6} sm={6} md={6}>
+                <Grid data-aos='flip-up' item xs={10} sm={10} md={6}>
                     <p className="txt">
                         About Us
                     </p>
@@ -24,7 +24,7 @@ const About = () => {
                         Eligendi totam, nam corporis natus maiores sequi expedita!
                     </p>
                 </Grid>
-                <Grid data-aos="flip-right" item xs={6} sm={6} md={6}>
+                <Grid data-aos="flip-right" item xs={2} sm={2} md={6}>
                     <img className='aboutus-logo' src={Logo} alt="company Logo" />
                 </Grid>
             </Grid>
