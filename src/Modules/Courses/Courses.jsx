@@ -15,24 +15,24 @@ const Courses = () => {
     <div className="courses-container">
       <Grid container>
         <Swiper
-        spaceBetween={30}
-        slidesPerView={3}
-        autoplay={{
-          delay: 1500,
-          disableOnInteraction: false,
-          pauseOnMouseEnter:true,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={false}
-        modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
+          spaceBetween={30}
+          slidesPerView={3}
+          autoplay={{
+            delay: 1500,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={false}
+          modules={[Autoplay, Pagination, Navigation]}
+          className="mySwiper"
         >
           <SwiperSlide>
             <div className="course-card">
               <img src={digitalMarketing} alt="courses" className="course-img" />
-              </div>
+            </div>
 
           </SwiperSlide>
           <SwiperSlide>
@@ -40,17 +40,20 @@ const Courses = () => {
             <div className="course-card">
               <img src={graphicDesigning} alt="courses" className="course-img" />
             </div>
-          </SwiperSlide><SwiperSlide>
+          </SwiperSlide>
+          <SwiperSlide>
 
             <div className="course-card">
               <img src={dataAnalysis} alt="courses" className="course-img" />
             </div>
-          </SwiperSlide><SwiperSlide>
+          </SwiperSlide>
+          <SwiperSlide>
 
             <div className="course-card">
               <img src={virtualAssitant} alt="courses" className="course-img" />
             </div>
-          </SwiperSlide><SwiperSlide>
+          </SwiperSlide>
+          <SwiperSlide>
 
             <div className="course-card">
               <img src={webAndApp} alt="courses" className="course-img" />

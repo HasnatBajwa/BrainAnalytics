@@ -3,9 +3,10 @@
     --blue: rgb(177, 213, 245);
     --darkblue: rgb(66, 66, 143);
     --text: rgb(71, 69, 69);
+    --navy: rgba(1, 24, 58, 255);
   }
   .footer-container{
-    background-color: var(--darkblue);
+    background-color: var(--navy);
     padding: 2%;
     margin-top: 2%;
   }

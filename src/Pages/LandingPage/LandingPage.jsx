@@ -7,6 +7,8 @@ import Courses from '../../Modules/Courses/Courses';
 import Services from '../../Modules/Services/Services';
 import About from '../../Modules/About/About';
 import Footer from '../../Components/Footer/Footer';
+import DiscoverMore from '../../Modules/DiscoverMore/DiscoverMore';
+import TrendingCourse from '../../Modules/TrendingCourse/TrendingCourse';
 const LandingPage = () => {
   return (
     <>
@@ -15,6 +17,8 @@ const LandingPage = () => {
       <Benefits />
       <Courses />
       <About />
+      <DiscoverMore />
+      <TrendingCourse />
       {/* <Services/> */}
       <SocialMedia />
       <Footer />

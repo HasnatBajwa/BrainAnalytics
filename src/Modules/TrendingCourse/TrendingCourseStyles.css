@@ -1,0 +1,48 @@
+:root {
+    --yellow: rgb(252, 202, 43);
+    --blue: rgb(177, 213, 245);
+    --darkblue: rgb(66, 66, 143);
+    --text: rgb(71, 69, 69);
+    --navy: rgba(1, 24, 58, 255);
+}
+
+
+
+.trending-course-container {
+    padding: 5% 15% 5% 15%;
+    background-color: whitesmoke;
+}
+
+.course-material-card {
+    background-color: var(--navy);
+    margin: 2%;
+    padding: 3%;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    border-radius: 5px;
+}
+
+.course-material-card:hover {
+    top: -10px;
+}
+.course-icon{
+ color: var(--yellow);
+ text-align: center;
+ font-size: 80px;
+ display: flex;
+ margin: auto;
+}
+.course-h{
+    text-align: center;
+    color: whitesmoke;
+}
+.course-q{
+    color: var(--yellow);
+    text-align: right;
+}
+@media only screen and (max-device-width: 768px) {
+    .course-icon{
+        font-size: large;
+    }
+}
