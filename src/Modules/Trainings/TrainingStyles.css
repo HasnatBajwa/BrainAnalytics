@@ -1,0 +1,25 @@
+:root {
+    --yellow: rgb(252, 202, 43);
+    --blue: rgb(177, 213, 245);
+    --darkblue: rgb(66, 66, 143);
+    --text: rgb(71, 69, 69);
+    --navy: rgba(1, 24, 58, 255);
+}
+.training-container{
+background-color:var(--navy);
+width: 100%;
+margin: 2% 0% 2% 0%; 
+padding: 5% 0% 5% 0%;
+}
+.training-heading{
+    color: var(--blue);
+    text-align: center;
+}
+.training-subheading{
+    text-align: center;
+    color: var(--yellow);
+}
+.training-dec{
+    text-align: center;
+    color: whitesmoke;
+}

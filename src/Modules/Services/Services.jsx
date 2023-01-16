@@ -1,16 +1,16 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
 import "./ServicesStyles.css";
-import digitalMarketing from '../../assets/Courses/digitalmarketing.png';
-import graphicDesigning from '../../assets/Courses/graphic-designing.png';
-import dataAnalysis from '../../assets/Courses/data-analysis.png';
-import virtualAssitant from '../../assets/Courses/virtualassistant.png';
-import webAndApp from '../../assets/Courses/webandapp.png'; 
+// import digitalMarketing from '../../assets/Courses/digitalmarketing.png';
+// import graphicDesigning from '../../assets/Courses/graphic-designing.png';
+// import dataAnalysis from '../../assets/Courses/data-analysis.png';
+// import virtualAssitant from '../../assets/Courses/virtualassistant.png';
+// import webAndApp from '../../assets/Courses/webandapp.png'; 
 
 const Services = () => {
   return (
     <div className="services-container">
-      <Grid container>
+      {/* <Grid container>
         <Grid item xs={12} sm={12} md={12}>
           <h1 className="service-heading">Our Services</h1>
         </Grid>
@@ -49,7 +49,7 @@ const Services = () => {
           <img src={dataAnalysis} alt="" className="service-img" />
           </div>
         </Grid>
-      </Grid>
+      </Grid> */}
     </div>
   );
 };

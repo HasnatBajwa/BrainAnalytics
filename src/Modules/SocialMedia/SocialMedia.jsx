@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./SocialMedia.css";
 import { Grid } from "@material-ui/core";
 import Facebook from "../../assets/SocialMedia/Facebook.png";

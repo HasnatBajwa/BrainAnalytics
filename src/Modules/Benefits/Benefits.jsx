@@ -2,7 +2,6 @@ import React from "react";
 import "./BenefitsStyles.css";
 import { Grid } from "@material-ui/core";
 import { FaUserTie, FaLightbulb, FaBookReader } from 'react-icons/fa';
-import { FcIdea } from 'react-icons/fc';
 
 
 

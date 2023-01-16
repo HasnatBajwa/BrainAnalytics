@@ -2,7 +2,6 @@ import React from "react";
 import "./TaglineStyles.css";
 import { Grid } from "@material-ui/core";
 import Trainings from "../../assets/company/Trainings.png";
-import Partners from "../../assets/company/Partners.png";
 
 const Tagline = () => {
   return (
@@ -35,13 +34,3 @@ const Tagline = () => {
 };
 
 export default Tagline;
-{/* <Grid item xs={12} sm={12} md={12}>
-<div className="tagline-partners">
-  <h1 id="tagline-partners-txt"> Our Corporate Trainees</h1>
-  <img
-    className="tagline-partners-img"
-    src={Partners}
-    alt="Partners"
-  />
-</div>
-</Grid> */}
