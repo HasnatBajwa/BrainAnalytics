@@ -1,0 +1,57 @@
+:root {
+    --yellow: rgb(252, 202, 43);
+    --blue: rgb(177, 213, 245);
+    --darkblue: rgb(66, 66, 143);
+    --text: rgb(71, 69, 69);
+    --navy: rgba(1, 24, 58, 255);
+}
+.courses-page-container{
+    margin-top: 8%;
+    padding: 0% 25% 0% 25%;
+}
+.course-category{
+    color: var(--text);
+}
+span{
+    color: var(--yellow);
+}
+.course-type{
+    color: var(--navy);
+}
+.course-card{
+    margin: 2%;
+    padding: 2%;
+    height: 450px;
+}
+.course-title-img{
+    width: 100%;
+}
+.course-title{
+    color: var(--text);
+    text-align: center;
+}
+.course-desc{
+    color: var(--text);
+    margin-left: 2%;
+}
+.duration{
+    color: var(--navy);
+}
+.elements{
+    color: var(--darkblue);
+    text-align: center;
+}
+.price{
+    opacity: 0;
+}
+@media only screen and (max-device-width: 768px) {
+    .courses-page-container{
+        padding: 0%;
+        margin-top: 50%;
+    }
+    .course-card{
+        margin: 2%;
+        padding: 2%;
+        height: 400px;
+    }
+}

@@ -10,6 +10,7 @@ import Footer from '../../Components/Footer/Footer';
 import DiscoverMore from '../../Modules/DiscoverMore/DiscoverMore';
 import TrendingCourse from '../../Modules/TrendingCourse/TrendingCourse';
 import Trainings from '../../Modules/Trainings/Trainings';
+import JoinUs from '../../Modules/JoinUs/JoinUs';
 const LandingPage = () => {
   return (
     <>
@@ -21,7 +22,7 @@ const LandingPage = () => {
       <DiscoverMore />
       <TrendingCourse />
       <Trainings />
-      {/* <Services/> */}
+      <JoinUs />
       <SocialMedia />
       <Footer />
     </>

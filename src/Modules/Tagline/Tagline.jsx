@@ -2,6 +2,7 @@ import React from "react";
 import "./TaglineStyles.css";
 import { Grid } from "@material-ui/core";
 import Trainings from "../../assets/company/Trainings.png";
+import { Link } from 'react-router-dom'
 
 const Tagline = () => {
   return (
@@ -17,7 +18,7 @@ const Tagline = () => {
           </p>
 
           <div className="tagline-btn-container">
-            <button className="tagline-btn apply">Apply Now!</button>
+            <Link to='/Courses'><button className="tagline-btn apply">Apply Now!</button></Link>
             <button className="tagline-btn contact">Contact Us</button>
           </div>
         </Grid>

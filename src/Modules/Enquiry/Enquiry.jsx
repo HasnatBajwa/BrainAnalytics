@@ -4,7 +4,7 @@ import "./EnquiryStyles.css";
 import { useFetchEnquiry } from "./fetchEnquiryData";
 import { Toaster } from 'react-hot-toast';
 
-export default function BasicModal() {
+export default function BasicModal(props) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -22,7 +22,7 @@ export default function BasicModal() {
   return (
     <>
       <button className="enquiry-form-open-btn" onClick={handleOpen}>
-        Enquiry
+       {props.name}
       </button>
       <Modal open={open} onClose={handleClose}>
         <div data-aos='fade-up' className="enquiry-container">
