@@ -24,3 +24,8 @@
     width: 50%;
     margin-left: 25%;
   }
+  @media only screen and (max-device-width: 768px){
+    .aboutus-container{
+      padding: 2%;
+    }
+  }

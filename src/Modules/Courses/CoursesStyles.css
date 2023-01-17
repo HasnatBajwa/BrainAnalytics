@@ -6,7 +6,7 @@
 }
 .course-card{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  height: 350px;
+  height: 250px;
 }
 .courses-container{
   padding: 3% 3% 3% 3%;
@@ -17,7 +17,7 @@
   text-align: center;
 }
 .course-img{
-width: 80%;
+width: 60%;
 display: flex;
 margin: auto;
 z-index: 0;
@@ -33,7 +33,7 @@ z-index: 0;
   .course-img{
     width: 100%;
   }
-.course-card{
-  height: 80px;
+   .course-card{
+  height: 60px;
 }
 }

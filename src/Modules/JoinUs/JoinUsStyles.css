@@ -34,3 +34,11 @@
     color: var(--text);
     text-align: justify;
 }
+@media only screen and (max-device-width: 768px){
+    .joinus-txt-container{
+        padding: 2%;
+    }
+    .joinus-txt-container-b{
+        padding: 2%;
+    }
+}

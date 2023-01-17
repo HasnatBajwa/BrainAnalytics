@@ -27,7 +27,7 @@ const Courses = () => {
                                 </Grid>
 
                                 <Grid item xs={12} sm={12} md={4}>
-                                    <div className="course-card">
+                                    <div className="course-page-card">
                                         <img src={fog} alt="" className="course-title-img" />
                                         <h3 className="course-title">
                                             Fundamentals of Graphic Design
@@ -44,7 +44,7 @@ const Courses = () => {
                                     </div>
                                 </Grid>
                                 <Grid item xs={12} sm={12} md={4}>
-                                    <div className="course-card">
+                                    <div className="course-page-card">
                                         <img src={agd} alt="" className="course-title-img" />
                                         <h3 className="course-title">
                                             Advanced Graphic Designing
@@ -61,7 +61,7 @@ const Courses = () => {
                                     </div>
                                 </Grid>
                                 <Grid item xs={12} sm={12} md={4}>
-                                    <div className="course-card">
+                                    <div className="course-page-card">
                                         <img src={ave} alt="" className="course-title-img" />
                                         <h3 className="course-title">
                                             Advanced Video Editing Course
@@ -87,7 +87,7 @@ const Courses = () => {
                                 </Grid>
 
                                 <Grid item xs={12} sm={12} md={4}>
-                                    <div className="course-card">
+                                    <div className="course-page-card">
                                         <img src={fog} alt="" className="course-title-img" />
                                         <h3 className="course-title">
                                             Amazon FBA Wholesale
@@ -97,14 +97,14 @@ const Courses = () => {
                                                 12 weeks
                                             </span><br />
                                             Elements:  <span className="elements">
-                                                Product Hunting, Product Sourcing, PPC, Listing, How to sell
+                                                Product Hunting, Product Sourcing, PPC, Listing, How to sell online
                                             </span>
                                         </p>
                                         <Enquiry name="Enroll Now" />
                                     </div>
                                 </Grid>
                                 <Grid item xs={12} sm={12} md={4}>
-                                    <div className="course-card">
+                                    <div className="course-page-card">
                                         <img src={agd} alt="" className="course-title-img" />
                                         <h3 className="course-title">
                                             Amazon FBA PL
@@ -114,14 +114,14 @@ const Courses = () => {
                                                 12 weeks
                                             </span><br />
                                             Elements:  <span className="elements">
-                                                Product Hunting, Product Sourcing, SMM, How to sell
+                                                Product Hunting, Product Sourcing, SMM, How to sell online
                                             </span>
                                         </p>
                                         <Enquiry name="Enroll Now" />
                                     </div>
                                 </Grid>
                                 <Grid item xs={12} sm={12} md={4}>
-                                    <div className="course-card">
+                                    <div className="course-page-card">
                                         <img src={ave} alt="" className="course-title-img" />
                                         <h3 className="course-title">
                                             Daraz Virtual Assistant
@@ -147,7 +147,7 @@ const Courses = () => {
                                 </Grid>
 
                                 <Grid item xs={12} sm={12} md={4}>
-                                    <div className="course-card">
+                                    <div className="course-page-card">
                                         <img src={fog} alt="" className="course-title-img" />
                                         <h3 className="course-title">
                                             Data Analysis & Visualization
@@ -164,7 +164,7 @@ const Courses = () => {
                                     </div>
                                 </Grid>
                                 <Grid item xs={12} sm={12} md={4}>
-                                    <div className="course-card">
+                                    <div className="course-page-card">
                                         <img src={agd} alt="" className="course-title-img" />
                                         <h3 className="course-title">
                                             Advanced Financial Reporting
@@ -181,7 +181,7 @@ const Courses = () => {
                                     </div>
                                 </Grid>
                                 <Grid item xs={12} sm={12} md={4}>
-                                    <div className="course-card">
+                                    <div className="course-page-card">
                                         <img src={ave} alt="" className="course-title-img" />
                                         <h3 className="course-title">
                                             Financial Planning & Analysis
@@ -207,7 +207,7 @@ const Courses = () => {
                                 </Grid>
 
                                 <Grid item xs={12} sm={12} md={4}>
-                                    <div className="course-card">
+                                    <div className="course-page-card">
                                         <img src={fog} alt="" className="course-title-img" />
                                         <h3 className="course-title">
                                             Advanced Front-End Development
@@ -224,7 +224,7 @@ const Courses = () => {
                                     </div>
                                 </Grid>
                                 <Grid item xs={12} sm={12} md={4}>
-                                    <div className="course-card">
+                                    <div className="course-page-card">
                                         <img src={agd} alt="" className="course-title-img" />
                                         <h3 className="course-title">
                                             Modern Web App Development
@@ -241,7 +241,7 @@ const Courses = () => {
                                     </div>
                                 </Grid>
                                 <Grid item xs={12} sm={12} md={4}>
-                                    <div className="course-card">
+                                    <div className="course-page-card">
                                         <img src={ave} alt="" className="course-title-img" />
                                         <h3 className="course-title">
                                             Hybrid Mobile App Development
@@ -267,7 +267,7 @@ const Courses = () => {
                                 </Grid>
 
                                 <Grid item xs={12} sm={12} md={4}>
-                                    <div className="course-card">
+                                    <div className="course-page-card">
                                         <img src={fog} alt="" className="course-title-img" />
                                         <h3 className="course-title">
                                             Advanced Digital Marketing

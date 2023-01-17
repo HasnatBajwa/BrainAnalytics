@@ -52,7 +52,20 @@
   padding: 1% 0% 3% 0%;
 }
 @media only screen and (max-device-width: 768px) {
+    .trending-course-container{
+        padding: 3%;
+    }
     .course-icon{
         font-size: large;
+    }
+    .course-material-card{
+        padding: 2%;
+    }
+    .course-h{
+        font-size: x-small;
+        padding: 2%;
+    }
+    .course-q{
+        font-size: x-small;
     }
 }
