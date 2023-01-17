@@ -25,10 +25,14 @@ span {
 }
 
 .course-page-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 3%;
+    flex-direction: column;
     padding: 2%;
-    height: 630px;
+    /* min-height: 620px; */
     border-radius: 5px;
 }
 
