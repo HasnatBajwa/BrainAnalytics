@@ -6,12 +6,12 @@
     --navy: rgba(1, 24, 58, 255);
 }
 .joinus-txt-container{
-    background-color: whitesmoke;
-    padding: 5% 30% 5% 30%;
+    /* background-color: whitesmoke; */
+    padding: 5% 5% 5% 5%;
 }
 .joinus-txt-container-b{
-    background-color: whitesmoke;
-    padding: 5% 30% 5% 30%;
+    /* background-color: whitesmoke; */
+    padding: 5% 5% 5% 5%;
 }
 .joinus-heading{
     text-align: center;
@@ -20,6 +20,7 @@
 .joinus-txt{
     text-align: justify;
     color: var(--text);
+    padding: 5%;
 }
 .joinus-img{
     width: 100%;
@@ -29,10 +30,13 @@
     color: var(--navy);
     text-align: center;
 
+
 }
 .joinus-txt-b{
     color: var(--text);
     text-align: justify;
+    padding: 5%;
+
 }
 @media only screen and (max-device-width: 768px){
     .joinus-txt-container{
