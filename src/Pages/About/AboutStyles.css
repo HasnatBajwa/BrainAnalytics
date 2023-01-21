@@ -133,13 +133,14 @@
 
 .trainers-container {
   padding: 5% 0% 5% 0%;
-  background: url(../../assets/company/inst.jpg);
+  background: url(../../assets/company/tagline.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.trainer-card{
+
+.trainer-card {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -148,19 +149,24 @@
   flex-direction: row;
   padding: 2%;
   border-radius: 5px;
-  background-color: whitesmoke; opacity: 0.95;
+  background-color: whitesmoke;
+  opacity: 0.95;
 }
-.trainer-img{
+
+.trainer-img {
   width: 30%;
   float: right;
 }
-.trainer-desig{
+
+.trainer-desig {
   display: block;
   color: var(--darkblue);
 }
-.trainer-title{
+
+.trainer-title {
   color: var(--navy);
 }
+
 @keyframes color-change {
   0% {
     color: var(--navy);

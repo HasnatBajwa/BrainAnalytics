@@ -1,0 +1,125 @@
+:root {
+    --yellow: rgb(252, 202, 43);
+    --blue: rgb(177, 213, 245);
+    --darkblue: rgb(66, 66, 143);
+    --text: rgb(71, 69, 69);
+    --red: rgb(209, 11, 57);
+    --navy: rgba(1, 24, 58, 255);
+
+}
+
+.contact-us-container {
+    margin-top: 10%;
+    padding: 2% 15% 2% 15%;
+}
+
+.contact-form-container {
+    padding: 2% 10% 2% 10%;
+
+    border-color: whitesmoke;
+}
+
+.contact-input-container {
+    margin: 2%;
+}
+
+.text-area {
+    margin-left: 1%;
+}
+
+.contact-submit-btn {
+    padding: 1%;
+    display: block;
+    margin: 1%;
+    width: 63%;
+    background: none;
+    background-color: var(--navy);
+    color: var(--yellow);
+    border: none;
+    border-radius: 5px;
+
+}
+
+.contact-submit-btn:hover {
+    cursor: pointer;
+    background-color: var(--yellow);
+    color: var(--navy);
+}
+
+.contact-form-in {
+    height: 30px;
+    width: 30%;
+    margin-left: 1%;
+}
+
+.contact-form-head {
+    color: var(--text);
+}
+
+.contact-us-heading {
+    color: var(--darkblue);
+}
+
+.contact-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 3%;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    opacity: 0.95;
+}
+
+.contact-type {
+    text-align: center;
+    color: var(--darkblue);
+}
+
+.contact-txt {
+    color: var(--text);
+    text-align: center;
+}
+
+.contact-icon {
+    margin: auto;
+    color: var(--yellow);
+    font-size: 50px;
+}
+
+.contact-heading {
+    text-align: center;
+    color: var(--navy);
+}
+
+@media only screen and (max-device-width: 768px) {
+    .contact-us-container {
+        margin-top: 50%;
+        padding: 0%;
+    }
+
+    .contact-img {
+        width: 100%;
+    }
+
+    .contact-form-head {
+        font-size: smaller;
+    }
+
+    .contact-us-heading {
+        font-size: small;
+    }
+
+    .contact-form-in {
+        width: 50%;
+        height: auto;
+    }
+
+    .text-area {
+        margin: auto;
+        width: 100%;
+
+    }
+}
