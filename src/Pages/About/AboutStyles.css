@@ -5,9 +5,15 @@
   --text: rgb(71, 69, 69);
   --red: rgb(209, 11, 57);
 }
-.about-container{
+
+.about-container {
   margin-top: 10%;
 }
+
+.about-txt-container {
+  padding: 1% 5% 1% 0%;
+}
+
 .about-heading {
   color: var(--darkblue);
   padding: 1%;
@@ -16,10 +22,9 @@
 .about-txt {
   color: var(--text);
   text-align: justify;
-  padding: 1%;
   font-weight: bold;
   font-size: large;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .about-img {
@@ -46,45 +51,157 @@
 .about-profile-img {
   width: 25%;
   display: inline-block;
-  float: right;
+  /* float: right; */
 }
 
-.ceo {
-  margin: 0 2% 0 2%;
-
+.about-student-icon {
+  font-size: 50px;
+  color: var(--blue);
+  display: block;
+  margin: auto;
 }
 
-.about-profile {
-  display: inline-block;
-  float: left;
-  padding: 2%;
-  width: 70%;
+.about-student-head {
+  color: var(--yellow);
+  font-size: large;
+  text-align: center;
 }
 
-.about-profile-heading {
-  color: var(--darkblue);
-}
-
-.about-profile-designation {
+.about-student-txt {
   color: var(--red);
-  text-decoration: underline var(--yellow);
-  font-size: small;
-  padding: 1%;
-  font-weight: bold;
+  text-align: center;
 }
 
-.about-profile-txt {
-  color: var(--text);
-  text-align: justify;
+.student-card {
+  background-color: var(--navy);
+  margin: 2%;
+  padding: 2%;
+  border-radius: 5px;
 }
 
-.muqaddas,
-.alisha {
-  width: 15%;
+.about-student-container {
+  display: inline-flex;
+  margin: auto;
+  padding: 5% 10% 5% 15%;
+  background-color: whitesmoke;
+  width: 100%;
 }
+
+.video-container {
+  padding: 5%;
+}
+
 
 .why-img {
   display: flex;
   margin: auto;
   width: 40%;
+}
+
+.company-video {
+  display: flex;
+  margin: auto;
+  height: 500PX;
+  border: none;
+  width: 100%;
+}
+
+.company-video-tagline {
+  background: url(../../assets//company/man.jpg);
+  background-position: center;
+  height: 500px;
+  width: 80%;
+  margin-left: 15%;
+}
+
+.video-player {
+  margin: 25% 0% 0% 35%;
+  font-size: 150px;
+  animation: color-change 1s infinite;
+}
+
+.video-container {
+  width: 60%;
+  display: flex;
+  margin: auto;
+  border: none;
+}
+
+.video-modal {
+  width: 50%;
+}
+
+.trainers-container {
+  padding: 5% 0% 5% 0%;
+  background: url(../../assets/company/inst.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.trainer-card{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 3%;
+  flex-direction: row;
+  padding: 2%;
+  border-radius: 5px;
+  background-color: whitesmoke; opacity: 0.95;
+}
+.trainer-img{
+  width: 30%;
+  float: right;
+}
+.trainer-desig{
+  display: block;
+  color: var(--darkblue);
+}
+.trainer-title{
+  color: var(--navy);
+}
+@keyframes color-change {
+  0% {
+    color: var(--navy);
+  }
+
+  100% {
+    color: var(--yellow);
+  }
+
+  /* 100% { color: var(--darkblue); } */
+}
+
+@media only screen and (max-device-width: 768px) {
+  .company-video-tagline {
+    width: 80%;
+    margin: auto;
+  }
+
+  .video-player {
+    margin-top: 50%;
+    margin-left: 25%;
+    padding: 0;
+  }
+
+  .about-container {
+    margin-top: 50%;
+  }
+
+  .video-container {
+    padding: 0%;
+    width: 100%;
+  }
+
+  .company-video {
+    display: flex;
+    width: 95%;
+    height: 250px;
+    margin: auto;
+  }
+
+  .about-txt {
+    padding: 2%;
+  }
 }
